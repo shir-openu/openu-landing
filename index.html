@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,9 @@
 <meta name="author" content="Dr. Shir Sivroni">
 <meta name="description" content="Interactive ODE exercises developed by Dr. Shir Sivroni for The Open University of Israel">
 <meta name="keywords" content="ODE, differential equations, mathematics, Open University, Shir Sivroni">
-<title>Dr. Shir Sivroni - The Open University of Israel</title>
+<meta name="description" lang="he" content="ד״ר שיר סברוני - חוקרת מדעי המוח ומרצה למתמטיקה באוניברסיטה הפתוחה. כלים אינטראקטיביים ללימוד משוואות דיפרנציאליות">
+
+<title>Dr. Shir Sivroni - Open University</title>
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://shir-openu.github.io/openu-landing/">
@@ -204,6 +207,19 @@
     text-decoration: none;
     letter-spacing: -0.01em;
     line-height: 1.6;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center 35%;
+    border: 2px solid rgba(255, 77, 184, 0.5);
+    box-shadow: 0 4px 20px rgba(255, 77, 184, 0.2);
   }
 
   .logo-line {
@@ -338,10 +354,13 @@
   <div class="container">
     <nav>
       <div class="logo">
-        <span class="logo-line">The Open University Of Israel</span>
-        <span class="logo-line">Introduction to ODE - 20218</span>
-        <span class="logo-line">Digital Friend Projects</span>
-        <span class="logo-line logo-copyright">© The Open University of Israel | Developed by Shir Sivroni</span>
+        <img src="for_v14.png" alt="Dr. Shir Sivroni" class="profile-pic">
+        <div class="logo-text">
+          <span class="logo-line">The Open University Of Israel</span>
+          <span class="logo-line">Introduction to ODE - 20218</span>
+          <span class="logo-line">Digital Friend Projects</span>
+          <span class="logo-line logo-copyright">© The Open University of Israel | Developed by Shir Sivroni</span>
+        </div>
       </div>
     </nav>
 
@@ -361,7 +380,7 @@
     </div>
   </a>
 
-  <a href="https://shir-openu.github.io/ODE-20218-2nd-DF-3/" class="card card-teaching">
+  <a href="https://shir-openu.github.io/ODE-20218-2nd-DF3/" class="card card-teaching">
     <div class="card-content">
       <div class="card-title">Exercise 3 - Variation of Parameters</div>
       <div class="card-desc">Digital Friend - Solve y'' - 4y' + 4y = (e^x/x)² with repeated roots</div>
@@ -372,6 +391,27 @@
     <div class="card-content">
       <div class="card-title">Exercise 4 - Fourth Order ODE</div>
       <div class="card-desc">Digital Friend - Solve y⁽⁴⁾ + 2y'' + y = x² + 2x + 1 with undetermined coefficients</div>
+    </div>
+  </a>
+
+  <a href="https://shir-openu.github.io/ODE-20218-2nd-DF5/" class="card card-teaching">
+    <div class="card-content">
+      <div class="card-title">Exercise 5 - Exact Equations</div>
+      <div class="card-desc">Digital Friend - Solve (y/x - 2y³/x³)y' = 2 - y²/x² with exact equation method</div>
+    </div>
+  </a>
+
+  <a href="https://shir-openu.github.io/ODE-20218-2nd-DF6/" class="card card-teaching">
+    <div class="card-content">
+      <div class="card-title">Exercise 6 - Second Order ODE</div>
+      <div class="card-desc">Digital Friend - Solve y'' + y = x with undetermined coefficients</div>
+    </div>
+  </a>
+
+  <a href="https://shir-openu.github.io/ODE-20218-2nd-DF7/" class="card card-teaching">
+    <div class="card-content">
+      <div class="card-title">Exercise 7 - Second Order ODE</div>
+      <div class="card-desc">Digital Friend - Solve y'' + 4y = 8 with undetermined coefficients</div>
     </div>
   </a>
 </div>
@@ -392,5 +432,15 @@
       particlesContainer.appendChild(particle);
     }
   </script>
+  
+<!-- SEO: Hebrew keywords for search engines -->
+<div style="display:none;" lang="he">
+  <h1>ד״ר שיר סברוני</h1>
+  <h2>שיר סיברוני</h2>
+  <p>חוקרת מדעי המוח ומרצה למתמטיקה באוניברסיטה הפתוחה</p>
+  <p>משוואות דיפרנציאליות, מדעי המוח, הטרמה, טופולוגיה, תורת הקבוצות</p>
+  <p>Open University Israel, ODE exercises, differential equations, Neurosciences, priming</p>
+</div>
+  
 </body>
 </html>
